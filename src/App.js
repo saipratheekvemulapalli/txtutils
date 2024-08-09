@@ -45,18 +45,18 @@ function App() {
         fontcolor={fontcolor}
         inputtitleclr={inputtitleclr}
       />
-      {/* hello */}
+      
       <Alert alert={alert} />
 
       <div className="container my-3">
         <About />
-        {/* <Texteditor
+        <Texteditor
           showAlert={showAlert}
           heading="Enter the text"
           mode={mode}
           fontcolor={fontcolor}
           inputtitleclr={inputtitleclr}
-        /> */}
+        />
       </div>
     </div>
   );
